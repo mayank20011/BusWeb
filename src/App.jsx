@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./components/Banner.jsx";
-import NavBar from "./components/NavBar.jsx";
+import NavBar from "./components/Navbar.jsx";
 import styles from "./App.module.css";
 import { useState, useEffect } from "react";
 import gsap from "gsap";
