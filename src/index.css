@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Roboto", sans-serif;
+  /* border:1px solid black; */
+}
+body{
+  overflow-x: hidden;
+}
