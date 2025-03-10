@@ -9,6 +9,9 @@ import InfoCards from "./components/InfoCards.jsx";
 import AboutUs from "./components/AboutUs.jsx";
 import PremiumSection from "./components/PremiumSection.jsx";
 import Services from "./components/Services.jsx";
+import WhyUss from "./components/WhyUss.jsx";
+import Reviews from "./components/Reviews.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   const [bannerHeight, setBannerHeight] = useState(0);
@@ -27,26 +30,38 @@ const App = () => {
   return (
     <div className="bg-neutral-700">
       <Banner tl={tl} />
-      
+
       {/* for Background image */}
       <div className={`${styles.busBg} overflow-hidden`}>
-        <div className={`${styles.blurContainer}`} >
+        <div className={`${styles.blurContainer}`}>
           <NavBar tl={tl} />
           <HeroSection tl={tl} />
         </div>
       </div>
 
       <div className="bg-slate-100">
-        <InfoCards/>
-        <AboutUs/>
+        <InfoCards />
+        <AboutUs />
       </div>
-      
-      <div className="w-full sm:py-6 md:py-12 " >
-         <PremiumSection/>
+
+      <div className="w-full sm:py-6 md:py-12 ">
+        <PremiumSection />
       </div>
 
       <div className="w-full py-6 md:py-12 bg-slate-100">
-        <Services/>
+        <Services />
+      </div>
+
+      <div className="w-full py-6 md:py-12 bg-neutral-500">
+        <WhyUss />
+      </div>
+
+      <div className="w-full py-6 md:py-12 bg-slate-100">
+        <Reviews/>
+      </div>
+      
+      <div className="w-full py-6 md:py-12 bg-neutral-500">
+        <Footer/>
       </div>
     </div>
   );

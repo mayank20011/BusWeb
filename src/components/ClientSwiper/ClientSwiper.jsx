@@ -19,7 +19,11 @@ export default function ClientSwiper() {
           clickable: true,
         }}
         Autoplay={true}
-        modules={[FreeMode, Pagination]}
+        autoplay={{
+          delay: 2000, 
+          disableOnInteraction: false, 
+        }}
+        modules={[FreeMode, Pagination, Autoplay]}
         className="mySwiper w-full border-2 h-20"
       >
         <SwiperSlide>
