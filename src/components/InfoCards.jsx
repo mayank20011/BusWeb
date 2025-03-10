@@ -6,7 +6,7 @@ const InfoCards = () => {
       <Card
         heading={"Book Direct"}
         pera={
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, maxime?"
+          "Directly reserve your travel and enjoy convenience, savings, and simplicity."
         }
         imgUrl={"https://img.icons8.com/ios/50/ticket--v1.png"}
         imgAlt={"Ticket"}
@@ -14,7 +14,7 @@ const InfoCards = () => {
       <Card
         heading={"Travel Safe"}
         pera={
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, maxime?"
+          "Prioritize safety with professional staff and top-notch bus maintenance services."
         }
         imgUrl={"https://img.icons8.com/ios/50/warning-shield.png"}
         imgAlt={"Safety Icon"}
@@ -22,7 +22,7 @@ const InfoCards = () => {
       <Card
         heading={"Free Booking"}
         pera={
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, maxime?"
+          "Book without fees, enjoy affordable fares, and stress-free travel planning."
         }
         imgUrl={"https://img.icons8.com/dotty/80/money-bag.png"}
         imgAlt={"Money"}
@@ -30,7 +30,7 @@ const InfoCards = () => {
       <Card
         heading={"Enjoy Journey"}
         pera={
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, maxime?"
+          "Experience comfort, friendly service, and unforgettable moments on every trip."
         }
         imgUrl={"https://img.icons8.com/external-wanicon-lineal-wanicon/64/external-enjoy-friendship-wanicon-lineal-wanicon.png"}
         imgAlt={"People Enjoying"}

@@ -14,21 +14,20 @@ const AboutUs = () => {
             About XYZ Bus Company
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-            voluptatibus, eum soluta accusantium impedit quae maiores laborum
-            rem libero cum eius possimus voluptate ipsa asperiores. Impedit
-            recusandae eos eius tempora repudiandae! Quo assumenda nesciunt eius
-            suscipit temporibus dignissimos, aut laboriosam voluptates
-            necessitatibus consequatur aliquam accusantium fuga nulla
-            perspiciatis dolorum accusamus!
+            Discover excellence in travel with our trusted bus company, offering
+            unmatched service across the region. With decades of experience, a
+            focus on safety, and commitment to innovation, we ensure hassle-free
+            journeys for every traveler. Trust us to make your travels both
+            enjoyable and reliable as we continue to redefine modern
+            transportation standards.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis minima pariatur, quos excepturi officiis reiciendis
-            porro, aliquid veniam a ullam veritatis commodi, ex optio harum.
-            Consectetur, totam! Blanditiis praesentium quidem eos quam fuga sunt
-            commodi ullam quasi tempore odio expedita, qui amet deserunt, omnis
-            ipsum animi rem numquam quia quae.
+            Innovating bus services with state-of-the-art technology, we excel
+            in customer satisfaction. Whether for business or leisure, we
+            guarantee exceptional quality. Our dedicated team ensures on-time
+            schedules and world-class comfort, helping you reach your
+            destination with a smile. Choose us for the ultimate bus travel
+            experience tailored to your expectations.
           </p>
           <button className="text-black w-fit border-1 px-4 py-2 rounded-md shadow-sm shadow-black hover:shadow-lg transition cursor-pointer">
             Contact Us
@@ -43,9 +42,13 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="flex flex-col gap-6 md:gap-8">
-        <h1 className="text-4xl font-bold text-blue-900 md:mx-auto w-fit">Our Partners</h1>
-        <p className="md:text-center text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique autem officia vitae itaque non, laudantium ullam. Officiis, quae reprehenderit eum aliquam beatae voluptate illo obcaecati.</p>
-        <ClientSwiper/>
+        <h1 className="text-4xl font-bold text-blue-900 md:mx-auto w-fit">
+          Our Partners
+        </h1>
+        <p className="md:text-center text-xl">
+        Our Partners At XYZ Bus Company, our trusted partners help us deliver seamless and exceptional travel experiences. By collaborating with leading organizations across industries like technology, tourism, and hospitality, we ensure comfort, convenience, and reliability for every journey. Together, we strive to enhance your travel, making every trip smooth, memorable, and enjoyable.
+        </p>
+        <ClientSwiper />
       </div>
     </div>
   );

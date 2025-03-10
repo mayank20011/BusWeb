@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const SlideDiv = () => {
+const SlideDiv = ({ img }) => {
   return (
-    <div>SlideDiv</div>
-  )
-}
+    <div className="border-2 border-green-600">
+      <img src={img} className=""/>
+    </div>
+  );
+};
 
-export default SlideDiv
+export default SlideDiv;
