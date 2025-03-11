@@ -4,7 +4,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import rahulMehta from "../../assets/rahulMehta.jpg";
 import snehaReddy from "../../assets/snehaReddy.jpg";
 import amitJoshi from "../../assets/amitJoshi.jpeg";
-import anilKumar from "../../assets/anilkumar.jpeg";
+import anilKumar from "../../assets/anilKumar.jpeg";
 export default function ReviewSwiper() {
   return (
     <>
