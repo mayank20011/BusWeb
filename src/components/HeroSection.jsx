@@ -116,6 +116,7 @@ const HeroSection = ({ tl }) => {
         </form>
       </div>
     </section>
+    
   );
 };
 
