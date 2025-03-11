@@ -39,7 +39,7 @@ const App = () => {
       </div>
 
       <div className="bg-slate-100" >
-        <InfoCards />
+        <InfoCards tl={tl}/>
         <AboutUs/>
       </div>
 

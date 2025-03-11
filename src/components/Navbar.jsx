@@ -67,7 +67,7 @@ const NavBar = ({ tl, paddingTop }) => {
     <div>
       <div className="w-full border-b-2 border-b-white" id="nav">
         <div className="w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] flex justify-between text-white font-bold py-4 items-center">
-          <img src="./" alt="Company's Logo" ref={logoRef} />
+          <h1 ref={logoRef}>Hari Om Tour & Travels</h1>
           <nav className="hidden sm:block">
             <ul className="flex gap-4" ref={navList}>
               <li className="cursor-pointer hover:scale-115 hover:text-blue-400 transition text-blue-400">
