@@ -32,7 +32,6 @@ export default function ClientSwiper() {
         pagination={{
           clickable: true,
         }}
-        Autoplay={true}
         autoplay={{
           delay: 2000, 
           disableOnInteraction: false, 
@@ -59,7 +58,6 @@ export default function ClientSwiper() {
         <SwiperSlide>
           <SlideDiv img={logo6}/>
         </SwiperSlide>
-
       </Swiper>
     </>
   );

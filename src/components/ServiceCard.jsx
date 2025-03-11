@@ -20,7 +20,7 @@ const ServiceCard = ({bgImage, text}) => {
   }
 
   return (
-    <div className="h-[300px] border bg-black flex flex-col justify-end pb-6 overflow-y-hidden" onMouseOver={playAnimation} onMouseLeave={()=>{tl.reverse()}}>
+    <div className="h-[300px] border bg-black flex flex-col justify-end pb-6 overflow-y-hidden" onMouseEnter={playAnimation} onMouseLeave={()=>{tl.reverse()}}>
       <h4 className="text-3xl sm:text-2xl md:text-xl font-bold text-white mx-auto" ref={heading}>{text}</h4>
     </div>
   )

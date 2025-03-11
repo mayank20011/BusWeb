@@ -87,7 +87,7 @@ const NavBar = ({ tl, paddingTop }) => {
           <img
             width="25"
             height="25"
-            src="https://img.icons8.com/fluency-systems-filled/50/rows.png"
+            src="https://img.icons8.com/fluency/48/menu--v3.png"
             alt="rows"
             className="sm:hidden cursor-pointer"
             onClick={mobileNavIn}
