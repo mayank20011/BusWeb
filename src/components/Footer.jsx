@@ -34,7 +34,7 @@ const Footer = () => {
                     src="https://img.icons8.com/emoji/48/envelope-.png"
                     alt="envelope-"
                   />
-                  <p className="hover:text-[#23527c] hover:font-bold hover:scale-105 transition cursor-pointer">Info@hariombustourandtravels.com</p>
+                  <p className="hover:text-[#020617] hover:font-bold hover:scale-105 transition cursor-pointer">Info@hariombustourandtravels.com</p>
                 </div>
               </div>
               <div>
@@ -61,11 +61,11 @@ const Footer = () => {
                   alt="Phone"
                 />
                 <p className="">
-                  <span className="hover:text-[#23527c] hover:font-bold hover:scale-105 transition cursor-pointer">9813030271</span>
+                  <span className="hover:text-[#020617] hover:font-bold hover:scale-105 transition cursor-pointer">9813030271</span>
                   <br />
-                  <span className="hover:text-[#23527c] hover:font-bold hover:scale-105 transition cursor-pointer">7575060073</span>
+                  <span className="hover:text-[#020617] hover:font-bold hover:scale-105 transition cursor-pointer">7575060073</span>
                   <br />
-                  <span className="hover:text-[#23527c] hover:font-bold hover:scale-105 transition cursor-pointer">9050054004</span>
+                  <span className="hover:text-[#020617] hover:font-bold hover:scale-105 transition cursor-pointer">9050054004</span>
                 </p>
               </div>
             </div>
