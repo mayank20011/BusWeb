@@ -7,22 +7,23 @@ const WhyUss = () => {
       <div className="text-white lg:w-1/2 flex flex-col gap-6">
         <div className="flex flex-col gap-2">
           <span className="text-xl">WHY</span>
-          <h1 className="text-4xl">Why Abc Comapny ?</h1>
+          <h1 className="text-3xl">Why Hari Om Tour & Travels</h1>
         </div>
         <div className="w-24 border-2  border-white rounded-4xl"></div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et natus
-          dolor ipsam quae commodi sapiente quidem error deserunt molestiae.
-          Blanditiis voluptate quis nesciunt aspernatur quisquam incidunt,
-          reiciendis adipisci autem consectetur hic odit laboriosam sequi
-          inventore mollitia suscipit officiis cum qui.
+          Discover the difference with Hari Om Tour & Travels—your trusted
+          partner for seamless journeys. Whether you're crossing the country or
+          catching a quick shuttle, we blend comfort, safety, and reliability to
+          make every trip extraordinary.
         </p>
         <ol className="flex flex-col gap-6 list-decimal pl-4">
           <li>
-            Traveling from coast to coast? <span className="font-bold">No worries.</span>
+            Traveling from coast to coast?{" "}
+            <span className="font-bold">No worries.</span>
           </li>
           <li>
-            Need a quick shuttle service? <span className="font-bold">We've got you.</span>
+            Need a quick shuttle service?{" "}
+            <span className="font-bold">We've got you.</span>
           </li>
         </ol>
       </div>

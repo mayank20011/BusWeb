@@ -3,7 +3,7 @@ import aboutUsImg from "../assets/aboutUsImg.png";
 const PremiumSection = () => {
   return (
     <div
-      className="flex gap-6 flex-col lg:flex-row w-full sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] items-center"
+      className="flex gap-6 flex-col lg:flex-row w-full sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] items-center sm:py-6 md:py-12"
       style={{ backgroundColor: "#17223a" }}
     >
       <div className="w-full lg:w-1/2 aspect-[16/9] pr-6">

@@ -16,8 +16,18 @@ export default function ClientSwiper() {
   return (
     <>
       <Swiper
-        slidesPerView={4}
-        spaceBetween={30}
+      breakpoints={{
+        320: {
+          slidesPerView: 2,
+        },
+        640: {
+          slidesPerView: 3,
+        },
+        1024: {
+          slidesPerView: 4,
+        },
+      }}
+        spaceBetween={50}
         freeMode={true}
         pagination={{
           clickable: true,
@@ -28,10 +38,10 @@ export default function ClientSwiper() {
           disableOnInteraction: false, 
         }}
         modules={[FreeMode, Pagination, Autoplay]}
-        className="mySwiper w-full border-2 border-red-600"
+        className="mySwiper w-full"
         style={{paddingBottom:"30px"}}
       >
-        <SwiperSlide className="" style={{height:"100%"}}>
+        <SwiperSlide>
           <SlideDiv img={logo1}/>
         </SwiperSlide>
         <SwiperSlide>

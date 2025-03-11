@@ -44,24 +44,26 @@ const App = () => {
         <AboutUs />
       </div>
 
-      <div className="w-full sm:py-6 md:py-12 ">
+      <div className={`w-full ${styles.premium}`}>
+        <div className={`${styles.overlay}`}>
         <PremiumSection />
+        </div>
       </div>
 
       <div className="w-full py-6 md:py-12 bg-slate-100">
         <Services />
       </div>
 
-      <div className="w-full py-6 md:py-12 bg-neutral-500">
-        <WhyUss />
+      <div className={`w-full py-6 md:py-12 bg-neutral-500 ${styles.whyUsBg}`}>
+          <WhyUss />
       </div>
 
       <div className="w-full py-6 md:py-12 bg-slate-100">
-        <Reviews/>
+        <Reviews />
       </div>
-      
+
       <div className="w-full py-6 md:py-12 bg-neutral-500">
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

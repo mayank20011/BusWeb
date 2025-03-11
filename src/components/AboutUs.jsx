@@ -11,7 +11,7 @@ const AboutUs = () => {
             ABOUT US
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900">
-            About XYZ Bus Company
+            About Hari Om Bus Tour & Travel 
           </h1>
           <p>
             Discover excellence in travel with our trusted bus company, offering
@@ -46,7 +46,7 @@ const AboutUs = () => {
           Our Partners
         </h1>
         <p className="md:text-center text-xl">
-        Our Partners At XYZ Bus Company, our trusted partners help us deliver seamless and exceptional travel experiences. By collaborating with leading organizations across industries like technology, tourism, and hospitality, we ensure comfort, convenience, and reliability for every journey. Together, we strive to enhance your travel, making every trip smooth, memorable, and enjoyable.
+        Our trusted partners help us deliver seamless and exceptional travel experiences. By collaborating with leading organizations across industries like technology, tourism, and hospitality, we ensure comfort, convenience, and reliability for every journey. Together, we strive to enhance your travel, making every trip smooth, memorable, and enjoyable.
         </p>
         <ClientSwiper />
       </div>

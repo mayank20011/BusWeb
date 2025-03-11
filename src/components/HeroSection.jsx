@@ -10,7 +10,6 @@ const HeroSection = ({ tl }) => {
   const formRef = useRef(null);
 
   useGSAP(() => {
-    
     tl.from(nameRef.current, {
       y: 500,
       delay: 0.1,
@@ -50,7 +49,7 @@ const HeroSection = ({ tl }) => {
   return (
     <section className="flex flex-col md:flex-row justify-between items-center py-12 pb-36 w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] gap-6 md:gap-0">
       <div className="w-full md:w-1/2 flex flex-col gap-6 text-white">
-        <p ref={nameRef}>Company Name</p>
+        <p ref={nameRef}>Hari Om Bus Tour & Travels</p>
         <h1
           className="capitalize text-5xl lg:text-6xl text-white font-bold"
           ref={headingRef}
@@ -58,9 +57,9 @@ const HeroSection = ({ tl }) => {
           Easy & effecient character bus rentals
         </h1>
         <p ref={peraRef}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta vero
-          nobis praesentium natus quasi quos adipisci, veniam rem temporibus
-          sapiente.
+          Providing comfortable, reliable, and safe travel experiences with a
+          customer-first approach. Perfect for group outings, corporate trips,
+          and special events.
         </p>
         <button
           className="bg-white text-black w-fit px-4 py-2 rounded-md cursor-pointer hover:scale-95 transition hover:shadow-md hover:shadow-black opacity-0 translate-y-[500px]"
@@ -76,8 +75,8 @@ const HeroSection = ({ tl }) => {
       >
         <h1 className="text-xl font-bold">Choose Your Journey</h1>
         <p className="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-          perferendis.
+          Plan your trip with ease and confidence. Experience seamless travel
+          tailored to your needs and preferences.
         </p>
         <form action="" className="flex flex-col gap-4">
           <input
