@@ -14,20 +14,10 @@ const AboutUs = () => {
             About Hari Om Bus Tour & Travel 
           </h1>
           <p>
-            Discover excellence in travel with our trusted bus company, offering
-            unmatched service across the region. With decades of experience, a
-            focus on safety, and commitment to innovation, we ensure hassle-free
-            journeys for every traveler. Trust us to make your travels both
-            enjoyable and reliable as we continue to redefine modern
-            transportation standards.
+          At Hari Om, our mission is simple: deliver exceptional travel experiences that inspire trust and loyalty. With decades of expertise, we continue to innovate and adapt, ensuring you receive premium services wherever your journey takes you.
           </p>
           <p>
-            Innovating bus services with state-of-the-art technology, we excel
-            in customer satisfaction. Whether for business or leisure, we
-            guarantee exceptional quality. Our dedicated team ensures on-time
-            schedules and world-class comfort, helping you reach your
-            destination with a smile. Choose us for the ultimate bus travel
-            experience tailored to your expectations.
+          From luxurious charter buses to efficient group shuttles, we put your comfort, safety, and satisfaction at the core of what we do. Join thousands of satisfied travelers who have made Hari Om their go-to name for all things transportation.
           </p>
           <button className="text-black w-fit border-1 px-4 py-2 rounded-md shadow-sm shadow-black hover:shadow-lg transition cursor-pointer">
             Contact Us
@@ -46,7 +36,7 @@ const AboutUs = () => {
           Our Partners
         </h1>
         <p className="md:text-center text-xl">
-        Our trusted partners help us deliver seamless and exceptional travel experiences. By collaborating with leading organizations across industries like technology, tourism, and hospitality, we ensure comfort, convenience, and reliability for every journey. Together, we strive to enhance your travel, making every trip smooth, memorable, and enjoyable.
+        Our journey wouldn’t be complete without our trusted collaborators. Working hand-in-hand with top-tier technology and hospitality partners, we ensure every aspect of your trip—from planning to arrival—is as seamless as it gets.
         </p>
         <ClientSwiper />
       </div>

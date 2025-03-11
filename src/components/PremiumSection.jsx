@@ -20,10 +20,7 @@ const PremiumSection = () => {
         </h1>
         <div className="border-2 rounded-md w-16 border-orange-600"></div>
         <p className="text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-          accusantium consectetur iure sunt perspiciatis eum adipisci fuga
-          distinctio, non doloremque dolores voluptatibus optio quam eveniet
-          beatae recusandae nemo ut? Iste.
+        Travel in style with our luxurious on-board amenities designed to elevate your experience. Whether you’re commuting or enjoying a scenic ride, we’ve got everything you need to feel relaxed and refreshed.
         </p>
         <div className="flex gap-6 items-center">
           <h4 className="text-xl text-white font-bold">Premium Class</h4>

@@ -54,12 +54,10 @@ const HeroSection = ({ tl }) => {
           className="capitalize text-5xl lg:text-6xl text-white font-bold"
           ref={headingRef}
         >
-          Easy & effecient character bus rentals
+          Effortless Bus Rentals for Every Journey
         </h1>
         <p ref={peraRef}>
-          Providing comfortable, reliable, and safe travel experiences with a
-          customer-first approach. Perfect for group outings, corporate trips,
-          and special events.
+        Embark on journeys that prioritize your comfort, reliability, and trust. From private getaways to corporate commutes, we deliver travel experiences that cater to your needs with precision and care.
         </p>
         <button
           className="bg-white text-black w-fit px-4 py-2 rounded-md cursor-pointer hover:scale-95 transition hover:shadow-md hover:shadow-black opacity-0 translate-y-[500px]"
@@ -116,7 +114,7 @@ const HeroSection = ({ tl }) => {
         </form>
       </div>
     </section>
-    
+
   );
 };
 
