@@ -19,7 +19,7 @@ function Banner({ tl }) {
       className="bg-slate-100 text-black text-sm hidden lg:flex w-full"
     >
       <div className="w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] flex gap-6 py-2">
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-2 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -49,10 +49,10 @@ function Banner({ tl }) {
               d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"
             ></path>
           </svg>
-          <h1>info@transpo.com</h1>
+          <h1>info@hariombustourandtravels.com</h1>
         </div>
 
-        <div className="flex gap-4 grow items-center">
+        <div className="flex gap-2 grow items-center">
           <h1>Let's Connect:</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -86,14 +86,14 @@ function Banner({ tl }) {
           </svg>
         </div>
 
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-2 items-center">
           <img
             width="20"
             height="20"
             src="https://img.icons8.com/ios-filled/50/marker.png"
             alt="marker"
           />
-          <h1>Star Tower, Sec 30, Gurugram Haryana</h1>
+          <h1>Rohtak Road Bahadurgarh Jhajjar, Haryana</h1>
         </div>
       </div>
     </div>

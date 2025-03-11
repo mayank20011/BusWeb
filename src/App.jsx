@@ -44,10 +44,8 @@ const App = () => {
         <AboutUs />
       </div>
 
-      <div className={`w-full ${styles.premium}`}>
-        <div className={`${styles.overlay}`}>
+      <div className={`w-full ${styles.premium} sm:py-6 md:py-12`}>
         <PremiumSection />
-        </div>
       </div>
 
       <div className="w-full py-6 md:py-12 bg-slate-100">

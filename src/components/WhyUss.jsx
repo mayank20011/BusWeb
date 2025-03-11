@@ -32,26 +32,26 @@ const WhyUss = () => {
         <Card
           heading={"5000+"}
           pera={"Transporation Partners"}
-          imgUrl={""}
-          imgAlit={""}
+          imgUrl={"https://img.icons8.com/ios/50/bus.png"}
+          imgAlit={"Bus"}
         />
         <Card
           heading={"70,000 +"}
           pera={"Passengers delighted"}
-          imgUrl={""}
-          imgAlit={""}
+          imgUrl={"https://img.icons8.com/wired/50/human-head.png"}
+          imgAlit={"Passenger"}
         />
         <Card
           heading={"25,000 +"}
           pera={"Charter bus trips"}
-          imgUrl={""}
-          imgAlit={""}
+          imgUrl={"https://img.icons8.com/ios/50/map--v1.png"}
+          imgAlit={"Map"}
         />
         <Card
           heading={"100%"}
           pera={"Satisfied Passenger"}
-          imgUrl={""}
-          imgAlit={""}
+          imgUrl={"https://img.icons8.com/carbon-copy/100/like--v1.png"}
+          imgAlit={"Heart"}
         />
       </div>
     </div>

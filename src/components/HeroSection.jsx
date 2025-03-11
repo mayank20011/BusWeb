@@ -83,24 +83,24 @@ const HeroSection = ({ tl }) => {
             type="text"
             name="from"
             placeholder="Travel From"
-            className="px-4 py-4 outline-none bg-white text-slate-600 rounded-md"
+            className="px-4 py-4 outline-none bg-white text-slate-600 rounded-md w-full"
           />
           <input
             type="text"
             name="To"
             placeholder="Travel To"
-            className="px-4 py-4 outline-none bg-white text-slate-600 rounded-md"
+            className="px-4 py-4 outline-none bg-white text-slate-600 rounded-md w-full"
           />
           <input
             type="Date"
             name="D&T"
             placeholder="Travel From"
-            className="px-4 py-4 outline-none bg-white text-slate-600 rounded-md"
+            className="px-4 py-4 outline-none bg-white text-slate-600 rounded-md w-full"
           />
           <select
             name=""
             id=""
-            className="bg-white p-4 outline-none rounded-md text-slate-600 cursor-pointer"
+            className="bg-white p-4 outline-none rounded-md text-slate-600 cursor-pointer w-full"
           >
             <option value="1" className="">
               1 Person
