@@ -20,7 +20,9 @@ const PremiumSection = () => {
         </h1>
         <div className="border-2 rounded-md w-16 border-orange-600"></div>
         <p className="text-white">
-        Travel in style with our luxurious on-board amenities designed to elevate your experience. Whether you’re commuting or enjoying a scenic ride, we’ve got everything you need to feel relaxed and refreshed.
+          Travel in style with our luxurious on-board amenities designed to
+          elevate your experience. Whether you’re commuting or enjoying a scenic
+          ride, we’ve got everything you need to feel relaxed and refreshed.
         </p>
         <div className="flex gap-6 items-center">
           <h4 className="text-xl text-white font-bold">Premium Class</h4>
@@ -52,7 +54,14 @@ const PremiumSection = () => {
             />
           </div>
         </div>
-        <button className="w-fit px-4 py-2 rounded-md bg-yellow-600 cursor-pointer hover:scale-95 transition text-white">Chat With Us</button>
+        <a
+          className="w-fit px-4 py-2 rounded-md bg-yellow-600 cursor-pointer hover:scale-95 transition text-white"
+          href="https://wa.me/919813030271?text=Hello%20there!%20I%20have%20a%20query."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Chat With Us
+        </a>
       </div>
     </div>
   );

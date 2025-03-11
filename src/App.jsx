@@ -38,9 +38,9 @@ const App = () => {
         </div>
       </div>
 
-      <div className="bg-slate-100">
+      <div className="bg-slate-100" >
         <InfoCards />
-        <AboutUs />
+        <AboutUs/>
       </div>
 
       <div className={`w-full ${styles.premium} sm:py-6 md:py-12`}>

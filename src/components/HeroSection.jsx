@@ -1,6 +1,7 @@
 import React from "react";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
+import { ToastContainer, toast } from "react-toastify";
 
 const HeroSection = ({ tl }) => {
   const nameRef = useRef(null);
@@ -46,8 +47,22 @@ const HeroSection = ({ tl }) => {
     });
   });
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (
+      e.target[0].value == "" ||
+      e.target[1].value == "" ||
+      e.target[2].value == "" ||
+      e.target[3].value == ""
+    ) {
+      toast.error("Form Values Can't be Empty");
+    } else {
+      toast.success("Submited Successfully");
+    }
+  }
   return (
     <section className="flex flex-col md:flex-row justify-between items-center py-12 pb-36 w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] gap-6 md:gap-0">
+      <ToastContainer />
       <div className="w-full md:w-1/2 flex flex-col gap-6 text-white">
         <p ref={nameRef}>Hari Om Bus Tour & Travels</p>
         <h1
@@ -57,14 +72,19 @@ const HeroSection = ({ tl }) => {
           Effortless Bus Rentals for Every Journey
         </h1>
         <p ref={peraRef}>
-        Embark on journeys that prioritize your comfort, reliability, and trust. From private getaways to corporate commutes, we deliver travel experiences that cater to your needs with precision and care.
+          Embark on journeys that prioritize your comfort, reliability, and
+          trust. From private getaways to corporate commutes, we deliver travel
+          experiences that cater to your needs with precision and care.
         </p>
-        <button
+        <a
           className="bg-white text-black w-fit px-4 py-2 rounded-md cursor-pointer hover:scale-95 transition hover:shadow-md hover:shadow-black opacity-0 translate-y-[500px]"
           ref={buttonRef}
+          href="https://wa.me/919813030271?text=Hello%20there!%20I%20have%20a%20query."
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Contact Us
-        </button>
+        </a>
       </div>
 
       <div
@@ -76,7 +96,7 @@ const HeroSection = ({ tl }) => {
           Plan your trip with ease and confidence. Experience seamless travel
           tailored to your needs and preferences.
         </p>
-        <form action="" className="flex flex-col gap-4">
+        <form action="" className="flex flex-col gap-4" onSubmit={handleSubmit}>
           <input
             type="text"
             name="from"
@@ -108,13 +128,15 @@ const HeroSection = ({ tl }) => {
             <option value="4">4 Person</option>
             <option value="5">5 Person</option>
           </select>
-          <button className="w-full text-white font-bold bg-amber-500 py-3 rounded-md cursor-pointer hover:scale-95 transition hover:shadow-black hover:shadow-2xl">
+          <button
+            type="submit"
+            className="w-full text-white font-bold bg-amber-500 py-3 rounded-md cursor-pointer hover:scale-95 transition hover:shadow-black hover:shadow-2xl"
+          >
             Find My Journey
           </button>
         </form>
       </div>
     </section>
-
   );
 };
 
