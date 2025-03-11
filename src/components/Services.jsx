@@ -9,7 +9,7 @@ import corporateTravels from "../assets/corporateTravels.jpg";
 
 const Services = () => {
   return (
-    <div className="w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] flex flex-col gap-6">
+    <div className="w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] flex flex-col gap-6" id="services">
       <div className="w-fit md:mx-auto md:text-center border-b-2">SERVICES</div>
       <h1 className="md:text-center text-4xl font-bold text-blue-900">Bus Rental & Shuttle Services</h1>
       <p className="md:text-center">Our services are designed to redefine your travel experience with comfort, efficiency, and reliability at their core. Whether you're organizing a school trip, planning a wedding, managing corporate travel, or arranging private tours, we’ve got you covered. From timely airport shuttles to exciting excursion packages, every journey is tailored to meet your needs. With a focus on safety, affordability, and professional service, our buses ensure smooth and enjoyable rides for all. At Hari Om Bus Tour & Travels, we don’t just provide transport—we create travel memories that last a lifetime.</p>

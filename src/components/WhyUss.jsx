@@ -4,7 +4,7 @@ import Card from "./Card";
 const WhyUss = () => {
   return (
     <div className="flex gap-6 items-center flex-col lg:flex-row w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px]">
-      <div className="text-white lg:w-1/2 flex flex-col gap-6">
+      <div className="text-white lg:w-1/2 flex flex-col gap-6" id="whyUs">
         <div className="flex flex-col gap-2">
           <span className="text-xl">WHY</span>
           <h1 className="text-3xl">Why Hari Om Tour & Travels</h1>

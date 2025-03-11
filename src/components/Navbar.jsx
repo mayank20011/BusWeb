@@ -8,27 +8,27 @@ const NavBar = ({ tl, paddingTop }) => {
   const navList = useRef(null);
   const sideNav = useRef(null);
   const sideNavTl = useRef(null);
-  const mobileNavLinks = useRef(null)
+  const mobileNavLinks = useRef(null);
   const ham = useRef(null);
 
-  useGSAP(()=>{
-    sideNavTl.current = gsap.timeline({paused:true}).to(sideNav.current,{
-      x:0,
-      ease:'power3.out'
-    })
-    sideNavTl.current.from(mobileNavLinks.current.children,{
-        x:100,
-        opacity:0,
-        stagger:0.3,
-        scale:0,
-    })
-  })
+  useGSAP(() => {
+    sideNavTl.current = gsap.timeline({ paused: true }).to(sideNav.current, {
+      x: 0,
+      ease: "power3.out",
+    });
+    sideNavTl.current.from(mobileNavLinks.current.children, {
+      x: 100,
+      opacity: 0,
+      stagger: 0.1,
+      scale: 0,
+    });
+  });
 
-  function mobileNavIn(){
-     sideNavTl.current.play();
+  function mobileNavIn() {
+    sideNavTl.current.play();
   }
 
-  function mobileNavOut(){
+  function mobileNavOut() {
     sideNavTl.current.reverse();
   }
 
@@ -36,7 +36,7 @@ const NavBar = ({ tl, paddingTop }) => {
     tl.from(logoRef.current, {
       opacity: 0,
       y: -30,
-      duration: 0.5,
+      duration: 0.1,
     });
 
     const liElements = navList.current?.querySelectorAll("li");
@@ -49,18 +49,18 @@ const NavBar = ({ tl, paddingTop }) => {
       tl.to(liElements, {
         y: 0,
         opacity: 1,
-        duration: 0.5,
+        duration: 0.1,
         stagger: 0.2,
       });
     } else {
       console.error("No <li> elements found!");
     }
 
-    tl.from(ham.current,{
-      opacity:0,
-      y:-30,
-      duration:0.3,
-    })
+    tl.from(ham.current, {
+      opacity: 0,
+      y: -30,
+      duration: 0.3,
+    });
   });
 
   return (
@@ -71,16 +71,16 @@ const NavBar = ({ tl, paddingTop }) => {
           <nav className="hidden sm:block">
             <ul className="flex gap-4" ref={navList}>
               <li className="cursor-pointer hover:scale-115 hover:text-blue-400 transition text-blue-400">
-                Home
+                <a href="#home">Home</a>
               </li>
               <li className="cursor-pointer hover:scale-115 hover:text-blue-400 transition">
-                About Us
+                <a href="#aboutUs">About Us</a>
               </li>
               <li className="cursor-pointer hover:scale-115 hover:text-blue-400 transition">
-                Services
+                <a href="#services">Services</a>
               </li>
               <li className="cursor-pointer hover:scale-115 hover:text-blue-400 transition">
-                Contact Us
+                <a href="#whyUs">Why Us</a>
               </li>
             </ul>
           </nav>
@@ -98,16 +98,35 @@ const NavBar = ({ tl, paddingTop }) => {
 
       <div
         className="fixed top-0 right-0 w-3/4 sm:w-1/2 max-w-[300px] min-h-screen md:hidden z-20 pl-8 px-6 pt-4 translate-x-full overflow-x-hidden"
-        style={{ backgroundColor: "rgba(255, 255, 255)", backdropFilter: `filter(10px)`}}
+        style={{
+          backgroundColor: "rgba(255, 255, 255)",
+          backdropFilter: `filter(10px)`,
+        }}
         ref={sideNav}
       >
         <nav>
-          <ul className="text-2xl font-bold flex flex-col gap-6" ref={mobileNavLinks}>
-            <li className="self-end p-1 px-3 rounded-full border-black border cursor-pointer text-lg" onClick={mobileNavOut}>X</li>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Contact Us</li>
+          <ul
+            className="text-2xl font-bold flex flex-col gap-6"
+            ref={mobileNavLinks}
+          >
+            <li
+              className="self-end p-1 px-3 rounded-full border-black border cursor-pointer text-lg"
+              onClick={mobileNavOut}
+            >
+              X
+            </li>
+            <li onClick={mobileNavOut}>
+              <a href="#home">Home</a>
+            </li>
+            <li onClick={mobileNavOut}>
+              <a href="#aboutUs">About Us</a>
+            </li>
+            <li onClick={mobileNavOut}>
+              <a href="#services">Services</a>
+            </li>
+            <li onClick={mobileNavOut}>
+              <a href="#whyUs">Why Us</a>
+            </li>
           </ul>
         </nav>
       </div>

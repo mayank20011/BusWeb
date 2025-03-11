@@ -28,10 +28,9 @@ const App = () => {
   const tl = gsap.timeline();
 
   return (
-    <div className="bg-neutral-700">
+    <div className="bg-neutral-700 scroll-smooth" id="home">
       <Banner tl={tl} />
 
-      {/* for Background image */}
       <div className={`${styles.busBg} overflow-hidden`}>
         <div className={`${styles.blurContainer}`}>
           <NavBar tl={tl} />
@@ -53,7 +52,7 @@ const App = () => {
       </div>
 
       <div className={`w-full py-6 md:py-12 bg-neutral-500 ${styles.whyUsBg}`}>
-          <WhyUss />
+        <WhyUss />
       </div>
 
       <div className="w-full py-6 md:py-12 bg-slate-100">
@@ -63,6 +62,11 @@ const App = () => {
       <div className="w-full py-6 md:py-12 bg-neutral-500">
         <Footer />
       </div>
+
+      <a href="#home" className="fixed right-3 bottom-[30px]">
+        <img src="https://img.icons8.com/fluency/48/up.png" alt="Arrow Up" className="bg-white p-2 rounded-full h-[40px]"/>
+      </a>
+
     </div>
   );
 };

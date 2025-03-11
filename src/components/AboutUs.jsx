@@ -4,7 +4,7 @@ import busDriver from "../assets/busDriver.jpg";
 import ClientSwiper from "./ClientSwiper/ClientSwiper.jsx";
 const AboutUs = () => {
   return (
-    <div className="w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] flex flex-col gap-6 md:gap-8 pb-6 md:pb-12">
+    <div className="w-full px-4 sm:w-11/12 mx-auto md:w-4/5 max-w-[1440px] flex flex-col gap-6 md:gap-8 pb-6 md:pb-12" id="aboutUs">
       <div className="flex gap-8 lg:gap-6 flex-col lg:flex-row -translate-y-12 items-center">
         <div className=" flex flex-col gap-6 w-full lg:w-1/2">
           <span className="capitalize text-sm font-bold border-b-2 w-fit border-b-blue-900">
